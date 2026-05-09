@@ -114,7 +114,7 @@ async function callOpenRouter({ apiKey, model, systemPrompt, messages }) {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${apiKey}`,
       'HTTP-Referer': window.location.origin,
-      'X-Title': '문정현 캐릭터 챗',
+'X-Title': 'Moonjeong Chat',
     },
     body: JSON.stringify({
       model,
